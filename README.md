@@ -6,47 +6,40 @@ This guide provides clear instructions for setting up your environment to run C+
 ​
 1. Download & Install Visual Studio Code
 
-    Go to the official VS Code website.
+Go to the official VS Code website.
 
-    Download the installer suitable for your operating system (Windows, macOS, or Linux).
+Download the installer suitable for your operating system (Windows, macOS, or Linux).
 
-    Install VS Code by following the on-screen prompts after downloading.
-
-    ​
+Install VS Code by following the on-screen prompts after downloading.    ​
 
 2. Install a C++ Compiler
 Windows
 
-    Download and install MinGW-w64 via the MSYS2 installer.
+Download and install MinGW-w64 via the MSYS2 installer.
 
-    Open the MSYS2 terminal and enter:
-
-text
-pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+Open the MSYS2 terminal and enter:
+   
+# pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 Add MinGW bin path (e.g., C:\msys64\ucrt64\bin) to your Windows environment variables (Path).
 
 Confirm installation by running:
 
-#g++ --version
+# g++ --version
 
 in Command Prompt to check if the compiler is recognized.
 
-macOS
+# macOS
 
-xcode-select --install
+# xcode-select --install
 
 This command installs the Apple command line developer tools, which include the C++ compiler.
 
-    ​
+# Linux (Ubuntu/Debian)
 
-Linux (Ubuntu/Debian)
-
-sudo apt install g++
+# sudo apt install g++
 
 For other distributions, use your system’s package manager to install g++.
-
-    ​
 
 3. Open VS Code and Install Extensions
 
@@ -58,20 +51,19 @@ Code Runner (optional, but highly recommended): Allows you to quickly run code s
 
 4. Configure VS Code for C++ (Optional)
 
-    You may create a .vscode folder in your project and add these files:
+You may create a .vscode folder in your project and add these files:
 
-   tasks.json for build tasks (compiling).
+tasks.json for build tasks (compiling).
 
-   Alternatively, the Code Runner extension can handle simple script execution without further setup.
-
-    ​
+Alternatively, the Code Runner extension can handle simple script execution without further setup.
+​
 
 5. Run Your First C++ Program
 
-    Create a new file with .cpp extension (e.g., main.cpp).
+Create a new file with .cpp extension (e.g., main.cpp).
 
-    Write your C++ code.
+Write your C++ code.
 
-    Press the Run button at the top right (play icon) or use Code Runner’s "Run Code" command to compile and execute.
+Press the Run button at the top right (play icon) or use Code Runner’s "Run Code" command to compile and execute.
 
 ​​

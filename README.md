@@ -1,4 +1,4 @@
-# MyProgrammingPortfolio
+# C++ Programming: Demonstrating Core Concepts and Practical Skills
 C++ Project Setup in Visual Studio Code
 
 This guide provides clear instructions for setting up your environment to run C++ code using Visual Studio Code (VS Code). The steps include downloading VS Code, installing a C++ compiler, configuring your environment, and installing recommended VS Code extensions.

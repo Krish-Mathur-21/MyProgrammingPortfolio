@@ -17,27 +17,27 @@ Windows
 
 Download and install MinGW-w64 via the MSYS2 installer.
 
-Open the MSYS2 terminal and enter:
+# Open the MSYS2 terminal and enter:
    
-# pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 Add MinGW bin path (e.g., C:\msys64\ucrt64\bin) to your Windows environment variables (Path).
 
 Confirm installation by running:
 
-# g++ --version
+g++ --version
 
 in Command Prompt to check if the compiler is recognized.
 
 # macOS
 
-# xcode-select --install
+xcode-select --install
 
 This command installs the Apple command line developer tools, which include the C++ compiler.
 
 # Linux (Ubuntu/Debian)
 
-# sudo apt install g++
+sudo apt install g++
 
 For other distributions, use your system’s package manager to install g++.
 

@@ -7,7 +7,7 @@ double numone, numtwo;
 char op;
 cout << "Enter Two numbers : ";
 cin >> numone >> numtwo;
-cout << "Enter the operation you want to perform: ";
+cout << "Enter the operation you want to perform(+, -, *, /): ";
 cin >> op;
 switch(op)
 {

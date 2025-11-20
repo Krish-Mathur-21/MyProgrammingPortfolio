@@ -8,7 +8,7 @@ int main(){
 srand(time(NULL));
 
 int num;
-int guess, tries;
+int guess, tries = 0;
 num = (rand() % 100) + 1;//Taking 101 in the modulus can actually give us 0 which we don't want
 
 do
@@ -24,7 +24,7 @@ do
     }else{
         cout << "Your guess is correct" << endl;
     }
-    tries++;    
+    ++tries;    
 } while (guess != num);
 
 cout << "you find the number " << num << " in " << tries << " tries." << endl;

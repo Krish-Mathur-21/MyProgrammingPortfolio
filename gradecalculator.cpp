@@ -15,7 +15,7 @@ int main() {
             
             if(cin.fail()) {
                 cin.clear(); // clear error flag
-                cin.ignore(10000, '\n'); // discard invalid input
+                cin.ignore(10000, '\n');
                 cout << "Invalid input. Please enter a number: ";
             }
             else if(marks[i] < 0 || marks[i] > 100) {
@@ -43,4 +43,5 @@ int main() {
     cout << "Grade: " << grade << endl;
 
     return 0;
+
 }
